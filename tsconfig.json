@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "module": "esnext",
+        "importHelpers": true,
+        "inlineSourceMap": false,
+        "listFiles": false,
+        "traceResolution": false,
+        "pretty": true,
+        "strictNullChecks": false,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "declaration": true,
+        "declarationDir": "types",
+        "emitDeclarationOnly": true
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "./**/*.spec.ts"
+    ],
+    "compileOnSave": false
+}
